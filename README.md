@@ -1,4 +1,5 @@
 # react-starter
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 ## A sample repository to start a new react application
 
 It requires Node.JS and NPM to be installed in your computer.
