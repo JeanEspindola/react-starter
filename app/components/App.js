@@ -1,7 +1,7 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-class Example extends React.Component {
+export class App extends React.Component {
     render() {
         return (
             <div>
@@ -10,5 +10,3 @@ class Example extends React.Component {
         );
     }
 }
-
-module.exports = Example;
