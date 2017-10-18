@@ -17,6 +17,11 @@ module.exports = {
                 query: {
                     presets: ['es2015', 'react']
                 }
+            },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loaders: ['babel-loader', 'eslint-loader']
             }
         ]
     },
