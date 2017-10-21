@@ -1,7 +1,12 @@
 {
-  parser: "babel-eslint",
+  "parser": "babel-eslint",
+  //"extends": ["airbnb"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "rules": {
-    "max-len": [1, 130, 2, {ignoreComments: true}]
-  }//,
-  //"extends": ["airbnb-base"]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": [0]
+  },
+  "globals": {
+    "document": true
+  }
 }
