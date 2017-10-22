@@ -12,8 +12,11 @@
   },
   "jest": {
     "setupFiles": [
+      "./src/shim.js",
       "./src/setupTests.js"
-    ]
+    ],
+    "collectCoverageFrom": ["app/**/*.js"],
+    "coveragePathIgnorePatterns": ["<rootDir>/app/index.js"]
   },
   "repository": {
     "type": "git",
